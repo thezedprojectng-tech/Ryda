@@ -17,7 +17,7 @@ export function Hero() {
           className="relative w-full h-full"
         >
           <Image
-            src="/brand/layer2.png"
+            src="/brand/Layer2.png"
             alt="Scenic campus ridge with cyclist overlooking landscape"
             fill
             priority

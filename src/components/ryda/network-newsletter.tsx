@@ -58,7 +58,7 @@ export default function NetworkNewsletter() {
             className="hidden sm:block relative w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-2xl overflow-hidden shadow-xl shrink-0 bg-slate-200"
           >
             <Image
-              src="/brand/layer1.png"
+              src="/brand/Layer1.png"
               alt="RYDA student commuter"
               fill
               sizes="(max-width: 768px) 112px, 128px"
@@ -108,7 +108,7 @@ export default function NetworkNewsletter() {
             className="hidden sm:block relative w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-2xl overflow-hidden shadow-xl shrink-0 bg-slate-200"
           >
             <Image
-              src="/brand/layer2.png"
+              src="/brand/Layer2.png"
               alt="RYDA campus smart dock kiosk"
               fill
               sizes="(max-width: 768px) 112px, 128px"

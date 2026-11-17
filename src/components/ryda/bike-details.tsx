@@ -49,7 +49,7 @@ export function BikeDetails() {
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
         >
           <Image
-            src="/brand/layer1.png"
+            src="/brand/Layer1.png"
             alt="Ryda precision commuter bicycle side profile view"
             fill
             sizes="(max-width: 1024px) 100vw, 1050px"
