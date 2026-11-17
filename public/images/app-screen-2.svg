@@ -1,0 +1,75 @@
+
+  <svg width="433" height="882" viewBox="0 0 433 882" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Camera Viewfinder Background -->
+    <rect width="433" height="882" fill="#051633" />
+    
+    <!-- Top status bar -->
+    <rect x="0" y="0" width="433" height="50" fill="#0A2D6B" />
+    <text x="40" y="32" font-family="'Inter', sans-serif" font-weight="600" font-size="14" fill="#FFFFFF">9:41</text>
+    <path d="M375 22 H395 V32 H375 Z" fill="#7CFC00" />
+
+    <!-- Header -->
+    <text x="216" y="90" text-anchor="middle" font-family="'Poppins', sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Scan to Unlock</text>
+    <text x="216" y="115" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="500" font-size="13" fill="#FFFFFF" opacity="0.75">Align QR code on bike handlebar or dock</text>
+
+    <!-- Viewfinder Reticle -->
+    <g transform="translate(76, 170)">
+      <!-- Outer Box -->
+      <rect x="0" y="0" width="280" height="280" rx="20" fill="#0A2D6B" fill-opacity="0.4" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="2" />
+      
+      <!-- Corner Guides in Electric Lime -->
+      <path d="M0 40 L0 10 Q0 0 10 0 L40 0" stroke="#7CFC00" stroke-width="6" fill="none" stroke-linecap="round" />
+      <path d="M240 0 L270 0 Q280 0 280 10 L280 40" stroke="#7CFC00" stroke-width="6" fill="none" stroke-linecap="round" />
+      <path d="M280 240 L280 270 Q280 280 270 280 L240 280" stroke="#7CFC00" stroke-width="6" fill="none" stroke-linecap="round" />
+      <path d="M40 280 L10 280 Q0 280 0 270 L0 240" stroke="#7CFC00" stroke-width="6" fill="none" stroke-linecap="round" />
+
+      <!-- QR Code In Viewfinder -->
+      <rect x="50" y="50" width="180" height="180" rx="12" fill="#FFFFFF" />
+      <!-- QR Blocks -->
+      <rect x="65" y="65" width="45" height="45" fill="#0A2D6B" />
+      <rect x="73" y="73" width="29" height="29" fill="#FFFFFF" />
+      <rect x="80" y="80" width="15" height="15" fill="#0A2D6B" />
+      
+      <rect x="170" y="65" width="45" height="45" fill="#0A2D6B" />
+      <rect x="178" y="73" width="29" height="29" fill="#FFFFFF" />
+      <rect x="185" y="80" width="15" height="15" fill="#0A2D6B" />
+      
+      <rect x="65" y="170" width="45" height="45" fill="#0A2D6B" />
+      <rect x="73" y="178" width="29" height="29" fill="#FFFFFF" />
+      <rect x="80" y="185" width="15" height="15" fill="#0A2D6B" />
+
+      <!-- Center Logo / Bike Symbol -->
+      <circle cx="140" cy="140" r="18" fill="#7CFC00" />
+      <text x="140" y="146" text-anchor="middle" font-family="'Poppins', sans-serif" font-weight="700" font-size="14" fill="#0A2D6B">R</text>
+
+      <!-- Laser Scanner Beam -->
+      <line x1="10" y1="140" x2="270" y2="140" stroke="#7CFC00" stroke-width="3" filter="drop-shadow(0 0 8px #7CFC00)" />
+    </g>
+
+    <!-- Detected Bike Details Box -->
+    <rect x="36" y="490" width="361" height="140" rx="18" fill="#0A2D6B" stroke="#7CFC00" stroke-width="2" />
+    <circle cx="76" cy="540" r="24" fill="#7CFC00" />
+    <path d="M68 540 L74 546 L85 534" stroke="#0A2D6B" stroke-width="3.5" stroke-linecap="round" />
+    
+    <text x="114" y="534" font-family="'Poppins', sans-serif" font-weight="700" font-size="18" fill="#FFFFFF">Ryda Bike #042</text>
+    <text x="114" y="555" font-family="'Inter', sans-serif" font-weight="500" font-size="12" fill="#7CFC00">Ready to ride • Smart Lock Active</text>
+    
+    <line x1="56" y1="575" x2="377" y2="575" stroke="#FFFFFF" stroke-opacity="0.15" />
+    <text x="56" y="605" font-family="'Inter', sans-serif" font-weight="600" font-size="13" fill="#FFFFFF">Rate: ₦[PRICE] / ride</text>
+    <text x="377" y="605" text-anchor="end" font-family="'Inter', sans-serif" font-weight="600" font-size="13" fill="#7CFC00">Pass: Active</text>
+
+    <!-- Action Buttons -->
+    <rect x="36" y="660" width="361" height="54" rx="27" fill="#7CFC00" />
+    <text x="216" y="694" text-anchor="middle" font-family="'Poppins', sans-serif" font-weight="700" font-size="17" fill="#0A2D6B">Unlock Bike</text>
+
+    <rect x="36" y="730" width="361" height="50" rx="25" fill="#0A2D6B" stroke="#FFFFFF" stroke-opacity="0.3" />
+    <text x="216" y="761" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="600" font-size="14" fill="#FFFFFF">Enter Bike ID Manually</text>
+
+    <!-- Flashlight & Help Icons -->
+    <circle cx="160" cy="820" r="22" fill="#0A2D6B" />
+    <path d="M156 812 L164 812 L161 822 L165 822 L157 828 L159 822 L155 822 Z" fill="#7CFC00" />
+    
+    <circle cx="270" cy="820" r="22" fill="#0A2D6B" />
+    <text x="270" y="826" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">?</text>
+  </svg>
+  

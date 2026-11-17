@@ -1,0 +1,64 @@
+
+  <svg width="433" height="882" viewBox="0 0 433 882" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Active Ride Screen Background -->
+    <rect width="433" height="882" fill="#082252" />
+    
+    <!-- Top status bar -->
+    <rect x="0" y="0" width="433" height="50" fill="#0A2D6B" />
+    <text x="40" y="32" font-family="'Inter', sans-serif" font-weight="600" font-size="14" fill="#FFFFFF">9:41</text>
+    <path d="M375 22 H395 V32 H375 Z" fill="#7CFC00" />
+
+    <!-- Header: Active Trip -->
+    <rect x="0" y="50" width="433" height="70" fill="#0A2D6B" />
+    <circle cx="45" cy="85" r="8" fill="#7CFC00" />
+    <text x="65" y="92" font-family="'Poppins', sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">Ride in Progress</text>
+    <text x="390" y="92" text-anchor="end" font-family="'Inter', sans-serif" font-weight="600" font-size="13" fill="#7CFC00">RYDA #042</text>
+
+    <!-- Live Timer Card -->
+    <g transform="translate(24, 140)">
+      <rect x="0" y="0" width="385" height="160" rx="24" fill="#0A2D6B" stroke="#7CFC00" stroke-width="2" />
+      <text x="192" y="45" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="600" font-size="13" fill="#FFFFFF" opacity="0.8" letter-spacing="1">TRIP DURATION</text>
+      <text x="192" y="105" text-anchor="middle" font-family="'Poppins', sans-serif" font-weight="700" font-size="48" fill="#7CFC00">08:42</text>
+      <text x="192" y="135" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="500" font-size="12" fill="#FFFFFF" opacity="0.9">Hostel Quad → Lecture Theatre 1</text>
+    </g>
+
+    <!-- Metrics Grid -->
+    <g transform="translate(24, 320)">
+      <!-- Metric 1: Distance -->
+      <rect x="0" y="0" width="180" height="110" rx="18" fill="#0A2D6B" />
+      <text x="24" y="35" font-family="'Inter', sans-serif" font-weight="500" font-size="12" fill="#FFFFFF" opacity="0.7">DISTANCE</text>
+      <text x="24" y="75" font-family="'Poppins', sans-serif" font-weight="700" font-size="28" fill="#FFFFFF">1.4 <tspan font-size="16" font-weight="500">km</tspan></text>
+      <text x="24" y="95" font-family="'Inter', sans-serif" font-weight="500" font-size="11" fill="#7CFC00">Saved ~15 mins walk</text>
+
+      <!-- Metric 2: Speed -->
+      <rect x="205" y="0" width="180" height="110" rx="18" fill="#0A2D6B" />
+      <text x="229" y="35" font-family="'Inter', sans-serif" font-weight="500" font-size="12" fill="#FFFFFF" opacity="0.7">CURRENT SPEED</text>
+      <text x="229" y="75" font-family="'Poppins', sans-serif" font-weight="700" font-size="28" fill="#FFFFFF">14 <tspan font-size="16" font-weight="500">km/h</tspan></text>
+      <text x="229" y="95" font-family="'Inter', sans-serif" font-weight="500" font-size="11" fill="#7CFC00">Cruising smoothly</text>
+    </g>
+
+    <!-- Route Map snippet -->
+    <g transform="translate(24, 450)">
+      <rect x="0" y="0" width="385" height="180" rx="20" fill="#061738" stroke="#0E3B8C" stroke-width="2" />
+      <!-- mini road -->
+      <path d="M30 140 Q160 40 350 70" stroke="#0E3B8C" stroke-width="24" fill="none" />
+      <!-- Traveled path (Lime) -->
+      <path d="M30 140 Q160 40 260 52" stroke="#7CFC00" stroke-width="6" fill="none" stroke-linecap="round" />
+      <!-- Bike Pin (Current location) -->
+      <circle cx="260" cy="52" r="14" fill="#7CFC00" />
+      <circle cx="260" cy="52" r="6" fill="#0A2D6B" />
+      <!-- Destination Pin -->
+      <circle cx="350" cy="70" r="10" fill="#FFFFFF" />
+      <text x="350" y="105" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="600" font-size="10" fill="#FFFFFF">LT 1 Station</text>
+      <text x="20" y="165" font-family="'Inter', sans-serif" font-weight="500" font-size="11" fill="#FFFFFF" opacity="0.8">Drop-off dock: 300m ahead (5 free slots)</text>
+    </g>
+
+    <!-- Pause & Lock Buttons -->
+    <rect x="24" y="650" width="385" height="54" rx="27" fill="#0A2D6B" stroke="#7CFC00" stroke-width="2" />
+    <text x="216" y="683" text-anchor="middle" font-family="'Poppins', sans-serif" font-weight="600" font-size="15" fill="#7CFC00">Pause Ride (Lock Between Lectures)</text>
+
+    <!-- End Ride Button (Lime) -->
+    <rect x="24" y="720" width="385" height="60" rx="30" fill="#7CFC00" />
+    <text x="216" y="757" text-anchor="middle" font-family="'Poppins', sans-serif" font-weight="700" font-size="17" fill="#0A2D6B">End Ride &amp; Return</text>
+  </svg>
+  
